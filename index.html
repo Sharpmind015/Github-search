@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>GitHub API</title>
+  <link rel="stylesheet" href="assets/material-kit.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">GitHub Finder</a>
+      <div class=" d-flex align-items-centercol-2 ml-auto">
+      <img src="assets/img/Octicons-mark-github.svg" alt="" class="">
+      </div>
+    </div>
+  </nav>
+  <div class="container searchContainer">
+    <div class="search card card-body">
+      <h2>Search GitHub users</h2>
+      <p class="mb-4">Enter a username to fetch a user profile and repos</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="Github Username...">
+    </div>
+    <br>
+    <div id="profile">
+
+    </div>
+  </div>
+
+  <footer class="mt-5 p-3 text-center bg-light">
+    Github Finder &copy;
+  </footer>
+
+<script src="assets/github.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
